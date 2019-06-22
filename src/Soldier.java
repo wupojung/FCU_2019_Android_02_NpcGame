@@ -18,7 +18,7 @@ public class Soldier extends Avatar implements Npc {
 
     @Override
     public void ShowInfo() {
-        System.out.format("[%s] HP %d MP %d ATK %d DEF %d \n", name, HP, MP, ATK, DEF);
+        System.out.format("   [%s] HP %d MP %d ATK %d DEF %d \n", name, HP, MP, ATK, DEF);
     }
 
     @Override
